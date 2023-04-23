@@ -81,5 +81,67 @@ http://localhost:3000/
 
 
 
+## ✨Features
+**1)** This is RESTful API that Implemented using a Node.js and Express to manage tasks in a Todo App.
 
+**2)** Users is able to register, log in, and receive a JWT upon successful authentication,like shown below:
+
+```bash
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRoYW5hbmpheWtobw",
+    "userId": "64451038dad24eed60354f40"
+}
+```
+
+**3)** Implemented authorization to ensure that only authenticated users can perform CRUD operations on their own tasks. 
+         
+      If someone tries to pass the id of another user's task to UPDATE/DELETE task he will get response like: 
+   
+           {
+               "message": "Not authorized!"
+           }
+       
+
+**4)** Users is able to create, read, update, and delete tasks using appropriate HTTP methods ``POST`` ``GET`` ``PUT`` ``DELETE`` 
+
+**5)** Implemented JWT authentication using jsonwebtoken. 
+![Screenshot_1](https://user-images.githubusercontent.com/125384723/233851193-60d585f3-f31b-4b11-baca-b3a72f5de930.png)
+
+
+**6)** Used MongoDB as the database to store task information, including task names, descriptions, and statuses (e.g., completed,pending)
+![Screenshot_2](https://user-images.githubusercontent.com/125384723/233851364-6b849a07-797b-4d13-a98e-f5eef1a8c775.png)
+
+passwords are completly encrypted:
+![Screenshot_3](https://user-images.githubusercontent.com/125384723/233851369-bbcdb906-fc64-4fda-bc96-3579df32bcde.png)
+
+
+**7)** Added Validations
+
+      - IF User Enters email that is alread registered then he will get error like this:
+            
+            {
+              "message": "Validation failed.",
+              "data": [
+                  {
+                      "location": "body",
+                      "param": "email",
+                      "value": "test@gmail.com",
+                      "msg": "E-Mail address already exists!"
+                    }
+                ]
+            }
+            
+      - If User Enters wrong password then he will get error like this:
+           {
+               "message": "Wrong password!"
+           }
+           
+      - If Someone Enters email that is not registered then he will get error like this:
+          {
+              "message": "A user with this email could not be found."
+          }
+
+**BONUS FEATURE**
+
+**8)** Added Pagination when there are more than 2 tasks. 
 
