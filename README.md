@@ -52,11 +52,12 @@ http://localhost:3000/
 1)You can Signup by Sending Request like shown below:
 ![Screenshot_2](https://user-images.githubusercontent.com/125384723/233836769-93b4eb39-90fe-4669-803a-ea77522f78f7.png)
 
-2)You can send your correct login credential and on success you will get JWT token,
-use this token whenever you want to perform CRUD Operations.
+2)You can send your correct login credential and on success you will get JWT token,use this token whenever you want to perform CRUD Operations.
 ![Screenshot_3](https://user-images.githubusercontent.com/125384723/233836785-656fb699-13a9-4efe-a655-30c8516ac813.png)
+
 3)You have to use token like this in the Header whenever you want to perform CRUD operation.
 ![Screenshot_1](https://user-images.githubusercontent.com/125384723/233836791-4b4d4455-1231-441f-a243-1b53da506276.png)
+
 5)You can create task like shown below:
 ![Screenshot_4](https://user-images.githubusercontent.com/125384723/233836798-dfba3293-c01f-470b-893e-dc98c51f376a.png)
 
