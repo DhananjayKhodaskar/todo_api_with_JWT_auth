@@ -144,4 +144,15 @@ passwords are completly encrypted:
 **BONUS FEATURE**
 
 **8)** Added Pagination when there are more than 2 tasks. 
+## 🚦Version
+1.0 - Running Succesfully with above feature.
+## 👦Contact
+🔗 Author - @Dhananjay Khodaskar 
 
+ya695678@gmail.com / dhananjaykhodaskar27@gmai.com 
+
++91-7057218243
+
+✅ Linkedin ✅ https://www.linkedin.com/in/dhananjay-khodaskar ✅
+
+✅ Github   ✅ https://github.com/DhananjayKhodaskar✅
