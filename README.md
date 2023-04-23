@@ -3,12 +3,11 @@
 
 ## Introduction
 
-* This is RESTful API that Implemented using a Node.js and Express to manage tasks in a Todo App.
-* Users is able to register, log in, and receive a JWT upon successful authentication. 
-* Implemented authorization to ensure that only authenticated users can perform CRUD operations on their own tasks. 
-* Users is able to create, read, update, and delete tasks using appropriate HTTP methods (POST, GET, PUT, DELETE).
-* Implemented JWT authentication using jsonwebtoken. 
-* Used MongoDB as the database to store task information, including task names, descriptions, and statuses (e.g., completed,pending)
+ Hey there, welcome to the documentation for our Todo App API! This API is built using Node.js and Express to help you manage your tasks. You can register and log in to the system, and when you log in successfully, you'll receive a JSON Web Token (JWT) so that you can perform CRUD operations on your own tasks.
+
+You can use HTTP methods such as POST, GET, PUT, and DELETE to create, read, update, and delete tasks respectively. To ensure that everything is secure, we've implemented JWT authentication using the jsonwebtoken package. We're using MongoDB to store your task information, including task names, descriptions, and statuses such as completed or pending.
+
+This documentation is here to help you get started with using the API. I've provided information on the API endpoints, authentication process, error handling, and any additional features that I've implemented. I've even put together a collection of Postman or equivalent API requests so that you can see how everything works in action. And don't worry, I've made sure to include clear documentation on how to run the API locally!
 ## Tech Stack
  
 **Framework:** Nodejs
